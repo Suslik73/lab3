@@ -19,8 +19,8 @@ test:
   database: lab3book
   pool: 5
   timeout: 5000
-  username: Suslik73
-  password: 555892
+  username: postgres
+  password: postgres
 
 production:
   adapter: postgresql
