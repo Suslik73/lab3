@@ -24,8 +24,8 @@ test:
 
 production:
   adapter: postgresql
-  database: lab3book
+  database: did9keefuq1rd
   pool: 5
   timeout: 5000
-  username: Suslik73
-  password: 555892
+  username: itcdvdzeobcysc
+  password: 2JIDa74U6tDXBWa0DOvoT8scFy
