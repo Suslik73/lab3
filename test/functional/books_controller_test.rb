@@ -48,17 +48,7 @@ class BooksControllerTest < ActionController::TestCase
   end
 
   test "should put change_state" do
-    put :change_state, book_id: @book.id, event: "delete"
-    assert_redirected_to book_index_path
+    put :change_state, book_id: @book.id, book: "delete"
+    assert_redirected_to books_path
   end
-
-  test "should unpublish book" do
-    get :unpublish, id: @book
-    assert_equal 'book was successfully updated.', flash[:notice]
-  end;
-
-  test "should remove book" do
-    get :remove, id: @book
-    assert_equal 'book was successfully updated.', flash[:notice]
-  end;
 end
