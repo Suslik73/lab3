@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: Пиковая дама
+  author: Пушкин
+  year: 1829
+  state: published
+
+two:
+  title: Книга
+  author: Автор
+  year: 1999
+  state: unpublished
